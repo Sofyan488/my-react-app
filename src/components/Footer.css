@@ -1,0 +1,43 @@
+.footer-section {
+    background: #0056b3; /* أو أي تدرج أزرق */
+    color: #fff;
+    text-align: center;
+    padding: 40px 20px;
+  }
+  
+  .footer-top p {
+    max-width: 600px;
+    margin: 0 auto 30px;
+    line-height: 1.5;
+    font-size: 0.95rem;
+  }
+  
+  .footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  
+  .footer-links ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+  }
+  
+  .footer-links li {
+    margin: 5px 0;
+  }
+  
+  .footer-links li strong {
+    color: #ffbf00; /* لون مميز */
+  }
+  
+  .footer-bottom {
+    border-top: 1px solid #4a87d4;
+    padding-top: 10px;
+    font-size: 0.85rem;
+    color: #ccc;
+  }
+  

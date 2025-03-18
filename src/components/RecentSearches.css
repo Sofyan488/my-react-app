@@ -1,0 +1,115 @@
+.recent-searches-section {
+    width: 100%;
+    max-width: 1200px; /* للتحكم بعرض الحاوية */
+    margin: 0 auto;    /* توسيط الحاوية بأكملها */
+    padding: 40px 20px;
+    color: #333;
+  }
+  
+  /* عناوين الأقسام */
+  .recent-searches-section h2 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #444;
+  }
+  
+  /* إعدادات البطاقات */
+  .search-cards-container {
+    display: flex;
+    gap: 20px;
+    /* لضبط اصطفافهم لليسار أو الوسط */
+    /* justify-content: flex-start;  // لليسار
+       أو center للوسط */
+    justify-content: flex-start;
+    margin-bottom: 40px;
+  }
+  
+  .search-card {
+    background-color: #fff;
+    width: 300px;       /* عرض البطاقة */
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    padding: 20px;
+    text-align: left;   /* النص لليسار */
+  }
+  
+  /* الجزء العلوي من البطاقة */
+  .search-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .airport-code {
+    font-weight: 700;
+    font-size: 1.4rem;
+    color: #0066cc; /* أزرق غامق */
+  }
+  
+  .plane-route {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .dotted-circle {
+    color: #999;
+    font-size: 1.2rem;
+  }
+  
+  .plane {
+    color: #1D4ED8; /* أزرق داكن */
+    font-size: 1.2rem;
+  }
+  
+  .depart-info {
+    font-size: 1rem;
+    color: #444;
+    margin-top: 5px;
+  }
+  
+  /* عنوان قسم Prepare */
+  .prepare-title {
+    margin: 40px 0 20px;
+    font-size: 1.2rem;
+    color: #555;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  
+  /* أيقونات */
+  .trip-icons-container {
+    display: flex;
+    gap: 40px; 
+    /* غيره لـ flex-start لو تريدها بمحاذاة يسار */
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+  
+  .trip-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80px;
+  }
+  
+  /* الدائرة خلف الإيموجي */
+  .icon-circle {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 1.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 8px;
+  }
+  
+  .trip-icon p {
+    font-size: 0.95rem;
+    color: #333;
+  }
+  

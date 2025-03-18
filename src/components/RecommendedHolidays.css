@@ -1,0 +1,77 @@
+.recommended-holidays {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+  }
+  
+  .holidays-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .holidays-header h2 {
+    font-size: 1.4rem;
+    color: #333;
+    margin: 0;
+  }
+  
+  .view-all-holidays {
+    text-decoration: none;
+    color: #007aff;
+    font-weight: 500;
+    font-size: 0.9rem;
+  }
+  
+  .view-all-holidays span {
+    font-size: 1rem;
+  }
+  
+  .holidays-cards {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+  }
+  
+  .holiday-card {
+    width: 220px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+    transition: transform 0.2s;
+  }
+  
+  .holiday-card:hover {
+    transform: translateY(-4px);
+  }
+  
+  .holiday-card img {
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+  }
+  
+  .holiday-info {
+    padding: 10px;
+  }
+  
+  .holiday-info h3 {
+    margin: 5px 0;
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  .holiday-info p {
+    margin: 3px 0;
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
+  .holiday-info .price {
+    font-weight: 700;
+    font-size: 1rem;
+    color: #333;
+  }
+  
