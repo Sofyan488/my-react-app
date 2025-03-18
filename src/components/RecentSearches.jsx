@@ -6,7 +6,7 @@ const RecentSearches = () => {
     <section className="recent-searches-section">
       <h2>RECENT SEARCHES</h2>
       <div className="search-cards-container">
-        {/* البطاقة الأولى */}
+       
         <div className="search-card">
           <div className="search-header">
             <span className="airport-code">SIN</span>
@@ -22,7 +22,7 @@ const RecentSearches = () => {
           </p>
         </div>
 
-        {/* البطاقة الثانية */}
+       
         <div className="search-card">
           <div className="search-header">
             <span className="airport-code">MY</span>
@@ -42,7 +42,7 @@ const RecentSearches = () => {
       <h2 className="prepare-title">PREPARE FOR YOUR TRIP</h2>
       <div className="trip-icons-container">
         <div className="trip-icon">
-          {/* يمكن وضع صورة بدلاً من الإيموجي */}
+   
           <div className="icon-circle" style={{ backgroundColor: "#FF6E82" }}>🏨</div>
           <p>Hotel</p>
         </div>

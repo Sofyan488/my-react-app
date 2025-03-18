@@ -1,31 +1,31 @@
 .header {
   display: flex;
   align-items: center;
-  justify-content: space-between;  /* يباعد اليسار واليمين */
+  justify-content: space-between;  
   padding: 10px 20px;
   background: #fff;
   border-bottom: 1px solid #ddd;
 }
 
-/* يسار: الشعار */
+
 .header-left .logo {
   font-size: 1.8rem;
   font-weight: bold;
   color: #007aff;
 }
 
-/* يمين: يحتوي الروابط + الأيقونات */
+
 .header-right {
   display: flex;
   align-items: center;
-  gap: 30px; /* مسافة بين القائمة والأيقونات */
+  gap: 30px; 
 }
 
-/* القائمة */
+
 .nav-links ul {
   list-style: none;
   display: flex;
-  gap: 20px; /* تباعد بين الروابط */
+  gap: 20px; 
   margin: 0;
   padding: 0;
 }
@@ -36,9 +36,9 @@
   font-weight: 500;
 }
 .nav-links a.active {
-  color: #007aff; /* اللون الأزرق للرابط النشط (Explore) */
+  color: #007aff; 
 }
-/* أيقونات */
+
 .header-icons {
   display: flex;
   gap: 20px;

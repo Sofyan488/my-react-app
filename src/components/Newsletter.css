@@ -1,11 +1,11 @@
 .newsletter-section {
-    /* خلفية شبيهة بتدرج أو لون فاتح */
+ 
     background: url("../assets/Subscribesectionbackground.png") no-repeat center top / cover;
     padding: 60px 20px;
     text-align: center;
   }
   
-  /* الصندوق الأبيض */
+ 
   .newsletter-container {
     max-width: 600px;
     margin: 0 auto;

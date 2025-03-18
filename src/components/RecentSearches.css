@@ -1,12 +1,12 @@
 .recent-searches-section {
     width: 100%;
-    max-width: 1200px; /* للتحكم بعرض الحاوية */
-    margin: 0 auto;    /* توسيط الحاوية بأكملها */
+    max-width: 1200px; 
+    margin: 0 auto;    
     padding: 40px 20px;
     color: #333;
   }
   
-  /* عناوين الأقسام */
+
   .recent-searches-section h2 {
     font-size: 1.3rem;
     font-weight: 600;
@@ -14,27 +14,25 @@
     color: #444;
   }
   
-  /* إعدادات البطاقات */
+
   .search-cards-container {
     display: flex;
     gap: 20px;
-    /* لضبط اصطفافهم لليسار أو الوسط */
-    /* justify-content: flex-start;  // لليسار
-       أو center للوسط */
+ 
     justify-content: flex-start;
     margin-bottom: 40px;
   }
   
   .search-card {
     background-color: #fff;
-    width: 300px;       /* عرض البطاقة */
+    width: 300px;       
     border-radius: 10px;
     box-shadow: 0 2px 6px rgba(0,0,0,0.15);
     padding: 20px;
-    text-align: left;   /* النص لليسار */
+    text-align: left;   
   }
   
-  /* الجزء العلوي من البطاقة */
+  
   .search-header {
     display: flex;
     align-items: center;
@@ -45,7 +43,7 @@
   .airport-code {
     font-weight: 700;
     font-size: 1.4rem;
-    color: #0066cc; /* أزرق غامق */
+    color: #0066cc; 
   }
   
   .plane-route {
@@ -60,7 +58,7 @@
   }
   
   .plane {
-    color: #1D4ED8; /* أزرق داكن */
+    color: #1D4ED8; 
     font-size: 1.2rem;
   }
   
@@ -70,7 +68,7 @@
     margin-top: 5px;
   }
   
-  /* عنوان قسم Prepare */
+ 
   .prepare-title {
     margin: 40px 0 20px;
     font-size: 1.2rem;
@@ -79,11 +77,11 @@
     text-transform: uppercase;
   }
   
-  /* أيقونات */
+
   .trip-icons-container {
     display: flex;
     gap: 40px; 
-    /* غيره لـ flex-start لو تريدها بمحاذاة يسار */
+
     justify-content: flex-start;
     flex-wrap: wrap;
   }
@@ -95,7 +93,7 @@
     width: 80px;
   }
   
-  /* الدائرة خلف الإيموجي */
+  
   .icon-circle {
     width: 60px;
     height: 60px;

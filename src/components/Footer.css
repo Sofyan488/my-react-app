@@ -1,5 +1,5 @@
 .footer-section {
-    background: #0056b3; /* أو أي تدرج أزرق */
+    background: #0056b3; 
     color: #fff;
     text-align: center;
     padding: 40px 20px;
@@ -11,7 +11,6 @@
     line-height: 1.5;
     font-size: 0.95rem;
   }
-  
   .footer-links {
     display: flex;
     flex-wrap: wrap;
@@ -31,7 +30,7 @@
   }
   
   .footer-links li strong {
-    color: #ffbf00; /* لون مميز */
+    color: #ffbf00; 
   }
   
   .footer-bottom {

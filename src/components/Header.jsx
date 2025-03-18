@@ -1,7 +1,7 @@
 import React from "react";
 import "./Header.css";
 
-// استورد الصور من مجلد src/assets
+
 import bellIcon from "../assets/bell.png";
 import userIcon from "../assets/user.png";
 

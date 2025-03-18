@@ -1,7 +1,5 @@
 import React from "react";
 import "./Destinations.css";
-
-// صور من مجلد src/assets
 import parisImg from "../assets/ParisImage.png";
 import greeceImg from "../assets/GreeceImage.png";
 import norwayImg from "../assets/NorwayImage.png";
