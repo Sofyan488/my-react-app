@@ -1,6 +1,7 @@
 import React from "react";
 import "./SearchSection.css";
 
+
 const SearchSection = () => {
   return (
     <section className="search-section">

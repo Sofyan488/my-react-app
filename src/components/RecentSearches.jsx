@@ -1,6 +1,7 @@
 import React from "react";
 import "./RecentSearches.css";
 
+
 const RecentSearches = () => {
   return (
     <section className="recent-searches-section">

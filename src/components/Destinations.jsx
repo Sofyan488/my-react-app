@@ -5,6 +5,7 @@ import greeceImg from "../assets/GreeceImage.png";
 import norwayImg from "../assets/NorwayImage.png";
 import tuscanyImg from "../assets/TuscanyImage.png";
 
+
 const Destinations = () => {
   const destinations = [
     { name: "Paris", price: "$699", image: parisImg },
