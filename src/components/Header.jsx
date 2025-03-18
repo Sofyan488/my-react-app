@@ -1,7 +1,5 @@
 import React from "react";
 import "./Header.css";
-
-
 import bellIcon from "../assets/bell.png";
 import userIcon from "../assets/user.png";
 
