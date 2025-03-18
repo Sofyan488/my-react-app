@@ -1,6 +1,5 @@
 import React from "react";
 import "./Hotels.css";
-
 import matterhornImg from "../assets/Matterhorn Suites Image.png";
 import discoveryImg from "../assets/Discovery Shores Image.png";
 import arcticImg from "../assets/Arctic Hut Image.png";
