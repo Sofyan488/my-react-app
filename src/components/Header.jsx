@@ -23,7 +23,7 @@ const Header = () => {
         </nav>
 
         <div className="header-icons">
-          {/* استخدم الصور التي صدّرتها من Figma بدل الصور القديمة */}
+  
           <img src={bellIcon} alt="Bell" className="icon" />
           <img src={userIcon} alt="User" className="user-icon" />
         </div>
