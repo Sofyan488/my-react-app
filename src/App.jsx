@@ -5,7 +5,6 @@ import RecentSearches from "./components/RecentSearches";
 import Destinations from "./components/Destinations";
 import RecommendedHolidays from "./components/RecommendedHolidays";
 import Hotels from "./components/Hotels";
-import Newsletter from "./components/Newsletter";  
 import Footer from "./components/Footer";          
 import "./index.css";
 
@@ -21,7 +20,7 @@ function App() {
         <RecommendedHolidays />
         <Hotels />
 
-        <Newsletter />
+      
       </div>
 
       <Footer />
